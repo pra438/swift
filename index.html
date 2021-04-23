@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <nav class="bg-light">
+        <div class="upper d-flex justify-content-between align-items-center w-52">
+            <div class="menu pl-2">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">
+                        <div class="form-group">
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>Select Language</option>
+                              <option>Marathi</option>
+                              <option>Hindi</option>
+                              <option>English</option>
+                              <option>Tamil</option>
+                            </select>
+                          </div>
+                    </a>
+                    <a href="index.html"><i class="fas fa-home"></i>Home</a>
+                    <a href="#"><i class="fas fa-video"></i>Video</a>
+                    <a href="#"><i class="fas fa-podcast"></i>Podcasts</a>
+                    <a href="#"><i class="far fa-newspaper"></i>Articles</a>
+                    <a href="magzine.html">Magzine</a>
+                    <a href="#">
+                        <div class="dropdown">
+                            <a class=" dropdown-toggle" href="#"  id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Help Center
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="#">Contact Us</a>
+                              <a class="dropdown-item" href="#">Subscribe</a>
+                            </div>
+                          </div>
+                    </a>
+                  </div>
+               <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+            </div>
+            <div class="center">
+                <img src="images/logo.png" class="img-fluid" alt="">
+            </div>
+            <div></div>
+        </div>
+        <div class="lower d-none d-lg-flex">
+        <ul class="list-unstyled d-flex justify-content-center align-items-center">
+            <li><a href="#">HOME </a></li>
+            <li><a href="magzine.html"> MAGAZINES</a></li>
+            <li><a href="#">E-DIARY</a></li>
+            <li><a href="#"> PRESS RELEASE</a></li>
+            <li><a href="#"> EXPERTS VIEW</a></li>
+            <li><a href="#"> STUDENTS CORNER</a></li>
+            <li><a href="#">ABOUT US</a></li>
+        </ul>
+    </div>
+    </nav>
+
+    <div class="container-fluid wrapper pt-4 pb-3">
+    <div class="container-fluid hero ">
+        <div class="row">
+            <div class="left col-lg-9">
+                <div class="first owl-carousel p-lg-1">
+                     <div class="item p-lg-3 p-md-3  f1">
+                         <div class="l1"></div>
+                     </div>
+                     <div class="item p-lg-3 p-md-3 f1">
+                        <div class="l2"></div>
+                     </div>
+                     <div class="item p-lg-3 p-md-3 f1">
+                        <div class="l3"></div>
+
+                     </div>
+                     <div class="item p-lg-3 p-md-3 f1">
+                        <div class="l4"></div>
+
+                     </div>
+                     <div class="item p-lg-3 p-md-3 f1">
+                        <div class="l5"></div>
+
+                     </div>
+                     <div class="item p-lg-3 p-md-3 f1">
+                        <div class="l6"></div>
+
+                     </div>
+                </div>
+                <div class="feature mt-3 ">
+                    <h4>FEATURED COLLEGES</h4>
+                    <div class="line"></div>
+                    <div class="row feat owl-carousel">
+                    <div class="fe1 item p-lg-3 p-md-3">
+                    <div>
+                        <img src="images/featuredcolleges1.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="fig">
+                        <p>University of Technology</p>
+                    </div>
+                    </div>
+                    <div class="fe2 item p-lg-3 p-md-3">
+                        <div>
+                            <img src="images/featuredcolleges2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="fig">
+                            <p>The Cooper Union</p>
+                        </div>
+                    </div>
+                    <div class="fe3 item p-lg-3 p-md-3">
+                        <div>
+                            <img src="images/featuredcolleges3.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="fig">
+                            <p>Sacred Heart University</p>
+                        </div>
+                    </div>
+                    <div class="fe4 item p-lg-3 p-md-3">
+                        <div>
+                            <img src="images/featuredcolleges4.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="fig">
+                            <p>Colorado State University</p>
+                        </div>
+                    </div>
+                    <div class="fe5 item p-lg-3 p-md-3">
+                        <div>
+                            <img src="images/featuredcolleges5.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="fig">
+                            <p>Institute Of Higher Education</p>
+                        </div>
+                    </div>
+                    <div class="fe6 item p-lg-3 p-md-3">
+                        <div>
+                            <img src="images/featuredcolleges6.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="fig">
+                            <p>Weber State University</p>
+                        </div>
+                    </div>
+                    <div class="fe7 item p-lg-3 p-md-3">
+                        <div>
+                            <img src="images/featuredcolleges7.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="fig">
+                            <p>Southern Utah University</p>
+                        </div>
+                    </div>
+                    <div class="fe8 item p-lg-3 p-md-3">
+                        <div>
+                            <img src="images/featuredcolleges8.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="fig">
+                            <p>Bradley J. Cook</p>
+                        </div>
+                    </div>
+                    <div class="fe9 item p-lg-3 p-md-3">
+                        <div>
+                            <img src="images/featuredcolleges9.jpg" alt="">
+                        </div>
+                        <div class="fig">
+                            <p>CUHK Business School</p>
+                        </div>
+                    </div>
+                    <div class="fe10 item p-lg-3 p-md-3">
+                        <div>
+                            <img src="images/featuredcolleges10.jpg" alt="">
+                        </div>
+                        <div class="fig">
+                            <p>International People’s</p>
+                        </div>
+                    </div>
+        
+                </div>
+                </div>
+                <div class="trend mt-2">
+                    <h4>TRENDING THIS WEEK</h4>
+                    <div class="line"></div>
+                    <div class="row">
+                    <div class="tr1 col-lg-4 col-md-6">
+                        <div>
+                            <img src="images/trendingthisweek1.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="fig">
+                    <p>Gamification in Education: 4 Ways To Bring Games To Your Classroom...</p>
+                        </div>
+                    </div>
+                    <div class="tr1 col-lg-4 col-md-6">
+                        <div>
+                            <img src="images/trendingthisweek2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="fig">
+                    <p>Immersive Learning With VR And AR – 2021</p>
+                        </div>
+                    </div>
+                    <div class="tr1 col-lg-4 col-md-6">
+                        <div>
+                            <img src="images/trendingthisweek3.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="fig">
+                    <p>The best gamification apps and techniques for in your...</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="right col-lg-3 text-align-center pt-0 mt-md-2 mt-3">
+            <div class="r1">
+                <div>
+                    <div class="rimg1">
+                        <div class="myDIV"><a href="#">Biden, Harris praise guilty verdict in Derek Chauvin murder trial, but say more must be done to fight systemic racism</a></div>
+                  <div class="hide">Chauvin was convicted on charges of second-degree murder, third-degree murder and second-degree manslaughter.</div>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="r1">
+                <div>
+                    <div class="rimg2">
+                        <div class="myDIVS"><a href="#">Netflix set to report earnings after the bell</a></div>
+                        <div class="hide1"> Netflix reports earnings for the first quarter of 2021 after the bell on Tuesday.</div>
+
+
+                    </div>
+                </div>
+               
+            </div>
+            <div class="r1">
+                <div>
+                    <div class="rimg3">
+                        <div class="myDIVSS"> <a href="#">‘The blue wall is crumbling,’ policing will fundamentally change after Chauvin verdict, says former NAACP CEO</a></div>
+                        <div class="hide2"> Former NAACP President and CEO Cornell Brooks explains how policing could fundamentally change after a jury found Derek Chauvin guilty</div>
+                    </div>
+                </div>
+               
+            </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid editor mt-4">
+        <h4>EDITOR'S PICK</h4>
+        <div class="line"></div>
+        <div class="row">
+            <div class="e1 col-lg-4 col-md-6">
+                <div>
+                    <img src="images/editorspick1.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="figii">
+                    <p>Looking for International Universities in India? Things to Keep in Mind While Choosing!</p>
+                </div>
+            </div>
+            <div class="e1 col-lg-4 col-md-6">
+                <div>
+                    <img src="images/editorspick2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="fig">
+                    <p>Why Education will Never be the Same Again </p>
+                </div>
+            </div>
+            <div class="e1 col-lg-4 col-md-6">
+                <div>
+                    <img src="images/editorspick3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="fig">
+                    <p>The Art of Creating Learning Spaces</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="container-fluid women mt-3 mt-lg-5">
+    <h4>WOMEN IN EDUCATION</h4>
+    <div class="line"></div>
+    <div class="row">
+        <div class="one col-lg-6 col-md-12">
+            <div>
+                <img src="images/womenineducation1.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="figs mb-3">
+                <h6>The Future Of College Recruitment Depends On Commitment To Diversity & Inclusion</h6>
+                <p>Over the past year, colleges have struggled to adapt to the challenges presented by COVID-19, between the pressure to move entire degr...</p>
+        </div>
+        </div>
+        <div class="two col-lg-6 col-md-12">
+        <div class="row">
+           <div class="t1 col-lg-6 col-md-6">
+            <div>
+                <!-- <img src="images/womenineducation2.jpg" class="img-fluid" alt=""> -->
+                <div class="img1"></div>
+            </div>
+            <div class="fig">
+                <h6><a href="#">School Of Rock Owners Around The World Are Maki...</a></h6>
+            </div>
+           </div>
+           <div class="t1 col-lg-6 col-md-6">
+            <div>
+                <div class="img2"></div>
+                <!-- <img src="images/womenineducation3.jpg" class="img-fluid" alt=""> -->
+            </div>
+            <div class="fig">
+                <h6><a href="#">An HBCU Grad Galvanized Voters In Georgia And Another </a></h6>
+            </div>
+           </div>
+            </div>
+            <div class="row mt-lg-4">
+                <div class="t2 col-lg-6 col-md-6">
+                    <div>
+                <div class="img3"></div>
+
+                        <!-- <img src="images/womenineducation4.jpg" class="img-fluid" alt=""> -->
+                    </div>
+                    <div class="fig">
+                        <h6><a href="#">Couple Shares Passion For Careers In Medical Field... </a></h6>
+                    </div>
+                </div>
+                <div class="t2 col-lg-6 col-md-6">
+                    <div>
+                <div class="img4"></div>
+                        <!-- <img src="images/womenineducation5.jpg" class="img-fluid" alt=""> -->
+                    </div>
+                    <div class="fig">
+                        <h6><a href="#">Lash Nolen Is Harvard Medical School’s First Black Woman</a></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid popular mt-lg-5 mt-3">
+    <h4>POPULAR READS</h4>
+    <div class="line"></div>
+
+    <div class="row">
+        <div class="p1 col-lg-3 col-md-6">
+            <div>
+                <img src="images/popularreads1.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="fig">
+                <h6><a href="#">How to Make a Career in Architecture</a></h6>
+            </div>
+        </div>
+        <div class="p1 col-lg-3 col-md-6">
+            <div>
+                <img src="images/popularreads2.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="fig">
+                <h6><a href="#">Persona 4.0: A Quantum Leap in Education Outcomes</a></h6>
+            </div>
+        </div>
+        <div class="p1 col-lg-3 col-md-6">
+            <div>
+                <img src="images/popularreads3.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="fig">
+                <h6><a href="#">Channelizing the Power of Collective Action for A Social</a></h6>
+            </div>
+        </div>
+        <div class="p1 col-lg-3 col-md-6">
+            <div>
+                <img src="images/popularreads4.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="fig">
+                <h6><a href="#">India’s New Education Policy: A Few Important Things That You Need to Know from the</a></h6>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+<div class="container-fluid follow mb-0 pb-2  p-lg-0 d-flex justify-content-center align-items-center">
+        <ul class="list-unstyled mb-0 d-none d-lg-flex justify-content-center align-items-center flex-column flex-lg-row h-100">
+            <li class="face px-lg-2"><a href="#"><i class="fab fa-facebook-f pr-3"></i> Share</a></li>
+            <li class="tweet px-2"><a href="#"><i class="fab fa-twitter pr-3"></i> Tweet</a></li>
+            <li class="pin px-2"><a href="#"><i class="fab fa-pinterest pr-3"></i> Pin</a></li>
+            <li class="email px-2"><a href="#"><i class="far fa-envelope pr-3"></i> Email</a></li>
+            <li class="share px-2"><a href="#"><i class="fas fa-share-alt pr-3"></i> Share</a></li>
+            <li class="share2 px-2"><a href="#"><i class="fab fa-linkedin-in pr-3"></i> Share</a></li>
+        </ul>
+        <div class="foll d-lg-none">
+        <ul class="list-unstyled mb-0 d-flex justify-content-center align-items-center flex-row flex-lg-none h-100">
+            <li class="face px-lg-2"><a href="#"><i class="fab fa-facebook-f "></i></a></li>
+            <li class="tweet px-2"><a href="#"><i class="fab fa-twitter "></i></a></li>
+            <li class="pin px-2"><a href="#"><i class="fab fa-pinterest "></i></a></li>
+            <li class="email px-2"><a href="#"><i class="far fa-envelope "></i></a></li>
+            <li class="share px-2"><a href="#"><i class="fas fa-share-alt "></i></a></li>
+            <li class="share2 px-2"><a href="#"><i class="fab fa-linkedin-in "></i></a></li>
+        </ul>
+    </div>
+</div>
+<div class="container-fluid footer">'
+    <p>Swiftnlift Magazine is The Best Business Magazine in the world for enterprises. Being a progress-driven platform, it focuses distinctively on emerging as well as leading companies, their reformative style of conducting business and ways of delivering effective and collaborative solutions to strengthen market share.</p>
+    <div class="follows">
+        <ul class="list-unstyled d-flex justify-content-center">
+      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+      <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+      <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+    </div>
+    <div class="foot d-flex justify-content-around flex-column flex-lg-row pt-lg-3">
+        <div class="foot-1">
+            <h6 class="pl-1">HELP CENTER</h6>
+            <ul class="list-unstyled">
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> FAQ's</a></li>
+                </ul>
+        </div>
+        <div class="foot-2">
+            <h6 class="pl-1">QUICK LINKS</h6>
+            <ul class="list-unstyled">
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> Home</a></li>
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> Magazines</a></li>
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> Events & Awards</a></li>
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> Press Release</a></li>
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> Blogs</a></li>
+            </ul>
+        </div>
+        <div class="foot-3">
+            <h6 class="pl-1">SECURITY & PRIVACY</h6>
+            <ul class="list-unstyled">
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> Terms Of Service</a></li>
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> Privacy Policy</a></li>
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> Disclaimer</a></li>
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> Cookies</a></li>
+                </ul>
+        </div>
+        <div class="foot-4">
+            <h6 class="pl-1">EDITIONS</h6>
+            <ul class="list-unstyled">
+                <li><a href="#"><i class="fas fa-angle-double-right"></i>INDIA</a></li>
+                <li><a href="#"><i class="fas fa-angle-double-right"></i>USA</a></li>
+                <li><a href="#"><i class="fas fa-angle-double-right"></i>APAC</a></li>
+                </ul>
+        </div>
+    </div>
+</div>
+<div class="container-fluid last mb-0">
+    <p class="mb-0">Copyright © 2021 pratiksha. All rights reserved.</p>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
